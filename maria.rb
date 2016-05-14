@@ -32,8 +32,6 @@ def funcionEdadBooleana ( persona, edadMaxima )
 end
 
 
-
-
 puts " escriba numero de personas "
 	nmrEnt = gets.chomp.to_i
 
@@ -43,7 +41,6 @@ puts " escriba numero de personas "
 		vector.each do |elmnt|
 			elmnt.setAtrbts( ) 
 		end
-
 
 		vector.each do |elmnt|
 			if ( funcionEdadBooleana( elmnt,18 ) )
@@ -62,6 +59,7 @@ puts " escriba numero de personas "
 			puts " escriba numero de personas "
 				nmrEnt = gets.chomp.to_i
 		end
+
 	end
 
 
